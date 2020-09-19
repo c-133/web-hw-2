@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recipes page</title>
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap grid system -->
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+
+    <!-- footer.css -->
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+    <link rel="stylesheet" href="css/Recipes.css">
+
+    <script src="Recipes.js"></script>
+
+</head>
+
+<body>
+
+   <!-- Navigation Bar -->
+   <div class="navbar">
+       <ul>
+           <li>
+               <a href="Home.html">Home</a>
+           </li>
+           <li>
+               <a href="Recipes.html">Recipe</a>
+           </li>
+           <li>
+               <a href="About.html">About me</a>
+           </li>
+           <li>
+               <a href="Contact.html">contact</a>
+           </li>
+       </ul>
+   </div>
+   <div class="cont_principal">
+    <div class="cont_central">
+        <div class="cont_modal cont_modal_active">
+            <div class="cont_photo">
+                <div class="cont_img_back">
+                    <img src="img/first.jpg">
+                </div>
+
+                <div class="cont_mins">
+                    <div class="sub_mins">
+                        <h3>50</h3>
+                        <span>MINS</span>
+                    </div>
+                </div>
+
+                <div class="cont_servings">
+                    <h3>4</h3>
+                    <span>SERVINGS</span>
+                </div>
+
+                <div class="cont_detalles">
+                    <h3>Shakshuka Baked Egg Dish</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nihil tempore
+                        ametvoluptatibus rerum, aperiam inventore.</p>
+                </div>
+            </div>
+
+            <div class="cont_text_ingredients">
+                <div class="cont_over_hidden">
+                    <div class="cont_tabs">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <h4>INGREDIENTS</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <h4>PREPARATION</h4>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cont_text_det_preparation">
+
+                        <div class="cont_title_preparation">
+                            <p>STEPS</p>
+                        </div>
+                        <div class="cont_info_preparation">
+                            <p>Heat oven to 375 degress</p>
+                            <p>Place the tin tomatoes, basil, and diced up garlic clove in a saucepan. Cook over medium heat for 20-30 minutes until the tomatoes have broken down and the sauce has thickened. Leave to cool. Spread the pizza sauce over the pizza base and top with sliced tomatoes and mozzarella. Drizzle over olive oil and salt + pepper. Cook on a pizza stone in an extremely hot oven until the toppings have cooked and the base has risen and browned. Leave to cool for a few minutes before garnishing with the basil leaves. Serve immediately. </p>
+                        </div>
+
+                        <div class="cont_text_det_preparation">
+                            <div class="cont_title_preparation">
+                                <p>YOU CAN GET HELP FROM THIS VIDEO</p>
+                            </div>
+
+                            <div class="cont_info_preparation">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/4VSW29yWPlA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="cont_btn_mas_dets">
+                        <a href="#"><i class="fas fa-angle-down"></i></a>
+                    </div>
+
+                </div>
+
+                <!-- Open and Close Button  -->
+                <div class="cont_btn_open_dets">
+                    <a href="#e" onclick="open_close()">
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+   <footer>
+    <div class="footer-container">
+      <div class="left-col">
+        <img src="img/logo.png" alt="" class="logo">
+        <div class="social-media">
+          <a href="https://www.facebook.com/barmej"target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/barmej"target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/barmej/"target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/c/Barmej"target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="rights-text">© 2020 Created By Ahmad Abul All Rights Reserved.</p>
+      </div>
+
+      <div class="right-col">
+        <h1>Our Newsletter</h1>
+        <div class="border"></div>
+        <p>Enter Your Email to get our news and updates.</p>
+        <form action="" class="newsletter-form">
+          <input type="text" class="txtb" placeholder="Enter Your Email">
+          <input type="submit" class="btn" value="submit">
+        </form>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>
